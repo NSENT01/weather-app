@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div class = 'Prompt'>
+        <h2 class = 'header'>What's the weather in your area?</h2>
+        <div class = 'InputCity'>
+            <input id = "cityInput" placeholder = "Your city" autofocus autocomplete = "off" type = "text">
+            <button name = "search">Enter</button>
+        </div>
+    </div>
+    <div class = 'Today'></div>
+
+    <div class = 'Forecast'>
+        <h2 class = 'header'></h2>
+        <table>
+            <tbody>
+                <tr class = 'day1'>
+                    
+                </tr>
+                <tr class = 'day2'>
+                    
+                </tr>
+                <tr class = 'day3'>
+                    
+                </tr>
+                <tr class = 'day4'>
+                    
+                </tr>
+                <tr class = 'day5'>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
